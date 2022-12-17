@@ -7,12 +7,14 @@ void main() {
   print(a);
 
   //2) Необходимо вывести на экран числа от 5 до 1
+
   //variant 1
   List num = [];
   for (int i = 1; i < 6; i++) {
     num.add(i);
   }
   print(num.reversed);
+  
   //variant 2
   List num2 = [];
   for (int i = 5; i >= 1; i--) {
