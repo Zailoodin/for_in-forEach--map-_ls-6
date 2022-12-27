@@ -14,7 +14,7 @@ void main() {
     num.add(i);
   }
   print(num.reversed);
-  
+
   //variant 2
   List num2 = [];
   for (int i = 5; i >= 1; i--) {
@@ -31,10 +31,10 @@ void main() {
   //4) Напишите программу, где пользователь вводит,  а программа суммирует все числа от 1 до введенного пользователем числа.
 
   int vashNumber = 5;
-  int chislo2 =1; 
+  int chislo2 = 1;
   for (int k = 0; k <= vashNumber; k++) {
     chislo2 += k;
-    print('$chislo2 + $k =${ chislo2+ k}');
+    print('$chislo2 + $k =${chislo2 + k}');
   }
-  
+  print(chislo2);
 }
